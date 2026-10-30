@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VisionSolverAI — Slouch Sentry | Скачать для Windows</title>
+  <meta name="description" content="VisionSolverAI (Slouch Sentry) — контроль осанки через веб-камеру с геймификацией и уведомлениями в Telegram. Скачайте бесплатно для Windows x64.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-icon">👁</span>
+        <span>VisionSolver<b>AI</b></span>
+      </div>
+      <a href="#features" class="nav-link">Возможности</a>
+      <a href="#how" class="nav-link">Как работает</a>
+      <a href="#download" class="btn btn-small">Скачать</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <p class="hero-tag">Slouch Sentry · Windows x64</p>
+      <h1>Программа, которая <span class="accent">следит за твоей спиной</span>, пока ты кодишь</h1>
+      <p class="hero-sub">
+        VisionSolverAI отслеживает осанку через веб-камеру, нагружая CPU меньше чем на 2%,
+        адаптивно подстраивается под твой ритм работы и не даёт сутулиться —
+        с геймифицированными «наказаниями» и пингами в Telegram.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" id="download-main"
+           data-download
+           href="https://github.com/ex1ndle1/vision_solver/releases/latest/download/VisionSolverAI-Windows-x64.exe">
+          ⬇ Скачать для Windows
+        </a>
+        <span class="hero-meta">Windows 10/11 x64 · ~246 МБ · Бесплатно</span>
+      </div>
+      <p class="hero-note">Фото с камеры и переписки никогда не покидают ваше устройство.</p>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="section">
+    <div class="container">
+      <h2>Что умеет</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">🪑</div>
+          <h3>Контроль осанки</h3>
+          <p>Скелет отслеживается через MediaPipe Pose: определение наклона спины и головы в реальном времени.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">⚡</div>
+          <h3>Почти нулевая нагрузка</h3>
+          <p>Кадры сжимаются до 320×240, частота опроса адаптивная — от кадра в 3 секунды до 2 FPS в критическом режиме.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔒</div>
+          <h3>100% приватность</h3>
+          <p>Всё распознавание идёт строго локально. Изображения с камеры не отправляются никуда.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🎮</div>
+          <h3>Геймифицированные наказания</h3>
+          <p>30 секунд на исправление позы и возможность амнистии за 3 минуты ровной спины.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">📨</div>
+          <h3>Telegram-фоллоуапы</h3>
+          <p>При критическом нарушении осанки — ироничное сообщение близким через Telethon (MTProto).</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🧠</div>
+          <h3>Умная фильтрация</h3>
+          <p>Debounce-фильтр случайных движений (3–7 секунд) — не срабатывает на то, что вы просто потянулись.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how" class="section section-alt">
+    <div class="container">
+      <h2>Как начать</h2>
+      <ol class="steps">
+        <li>
+          <span class="step-num">1</span>
+          <div>
+            <h3>Скачайте установщик</h3>
+            <p>Один exe-файл для Windows 10/11 (x64), установка не требуется.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          <div>
+            <h3>Разрешите доступ к камере</h3>
+            <p>Windows может спросить разрешение — подтвердите для приложения.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          <div>
+            <h3>Откалибруйте позу</h3>
+            <p>Сядьте ровно и запустите калибровку — дальше приложение работает само.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Download -->
+  <section id="download" class="section download">
+    <div class="container">
+      <h2>Скачать бесплатно</h2>
+      <p class="download-sub">Актуальная сборка — всегда в последнем релизе.</p>
+      <a class="btn btn-primary btn-lg"
+         data-download
+         href="https://github.com/ex1ndle1/vision_solver/releases/latest/download/VisionSolverAI-Windows-x64.exe">
+        ⬇ VisionSolverAI-Windows-x64.exe
+      </a>
+      <p class="download-meta">Windows 10 / 11 · x64 · ~246 МБ · Python 3.11 · MediaPipe Pose · OpenCV</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>VisionSolverAI · Slouch Sentry — ультралегковесный локальный сервис контроля осанки</p>
+      <p class="footer-muted">Все данные обрабатываются локально на вашем устройстве.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
